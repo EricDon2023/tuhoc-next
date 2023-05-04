@@ -1,5 +1,12 @@
-export default function About() {
-    return (
-        <p>test</p>
-    )
+import * as React from 'react';
+
+export interface IAboutProps {
+}
+
+export default function About (props: IAboutProps) {
+  return (
+    <div>
+      <p> test </p>
+    </div>
+  );
 }
